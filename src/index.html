@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="styles/journal.css">
   <meta charset="UTF-8">
@@ -7,7 +8,34 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 </head>
+
 <body>
-  
+  <form action="">
+    <fieldset>
+      <h1>Daily Journal</h1>
+      <label for="journalDate">Date Of Entry</label>
+      <input type="date" name="journalDate" id="journalDate">
+      <br>
+      <label for="concept">Concept covered</label>
+      <input type="text" name="concept" id="concept">
+      <br>
+      <label for="journalEntry">Journal Entry</label>
+      <input type="text" name="journalEntry" id="journalEntry">
+      <br>
+      <label for="journalMood">Mood for the day</label>
+      <select name="journalMood" id="journalMood">
+        <option value="pumped">Pumped!</option>
+        <option value="happy">Happy</option>
+        <option value="netural">Netural</option>
+        <option value="stressed">Stressed</option>
+        <option value="sad">Sad</option>
+      </select>
+      <br><br>
+      <button type="submit" value="record">Record Journal Entry</button>
+     
+
+    </fieldset>
+  </form>
 </body>
+
 </html>
