@@ -10,9 +10,10 @@
 </head>
 
 <body>
-  <form action="" class="container">
-    <h1>Daily Journal</h1>
+  <h1>Daily Journal</h1>
 
+  <form action="" class="container">
+    <br>
     <fieldset>
       <label for="journalDate">Date Of Entry</label>
       <input type="date" name="journalDate" id="journalDate">
@@ -23,7 +24,7 @@
     </fieldset>
     <fieldset>
       <label for="journalEntry">Journal Entry</label>
-      <textarea id="journalEntry" rows="3"> </textarea>
+      <textarea id="journalEntry" rows="4" cols="40"> </textarea>
     </fieldset>
     <fieldset>
       <label for="journalMood">Mood for the day</label>
@@ -35,8 +36,12 @@
         <option value="sad">Sad</option>
       </select>
     </fieldset>
-      <button type="submit" value="record">Record Journal Entry</button>
+    <br>
+    <button type="submit" value="record">Record Journal Entry</button>
+    <br>
   </form>
+
+  <script src="./scripts/journal.js"></script>
 </body>
 
 </html>
