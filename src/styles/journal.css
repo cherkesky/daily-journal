@@ -16,11 +16,13 @@ background-color: lightgray;
 fieldset {
   height: 75px;
   width: 250px;
-  max-height: 75px;
-  max-width: 250px;
   display: flex;
   align-content: space-between;
   background-color: lightpink;
   justify-content: stretch;
 
+}
+
+textarea {
+  resize: none;
 }
